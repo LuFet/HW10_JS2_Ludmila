@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .slider{
+            border: 1px solid rgb(180, 177, 177);
+            background-color: rgb(241, 230, 226);
+        }
+        .slider img{
+            width: 200px;
+            height: 300px;
+            display: none;            
+        }
+        .slider img:first-child{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <img src="img/1.jpg" alt="">
+        <img src="img/2.jpg" alt="">
+        <img src="img/3.jpg" alt="">
+        <img src="img/4.jpg" alt="">
+        <br>
+        <button class="btn-prev">prev</button>
+        <button class="btn-next">next</button>
+        <script src="slider-simple.js"></script>
+    </div>
+</body>
+</html>

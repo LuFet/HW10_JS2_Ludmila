@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(242, 243, 221);
+        }
+        .slider{
+            border: 1px solid #000;
+            background-color: rgb(243, 134, 134);
+        }
+        .slider img{
+            width: 200px;
+            height: 300px;
+            display: none;
+        }
+        .slider img:first-child{
+            display: inline-block;
+        }
+
+        .one{
+            border: 1px solid #000;
+            background-color: rgb(196, 196, 245);
+        }
+        .one img{
+            width: 200px;
+            height: 300px;
+            display: none;
+        }
+        .one img:first-child{
+            display: inline-block;
+        }
+
+        .two{
+            border: 1px solid #000;
+            background-color: rgb(250, 162, 221);
+        }
+        .two img{
+            width: 200px;
+            height: 300px;
+            display: none;
+        }
+        .two img:first-child{
+            display: inline-block;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Paolo Roversi</h1>
+    <div class="slider">
+        <img src="img/1.jpg" alt="">
+    </div>
+    <button class="btn-prev">Prev</button>
+    <button class="btn-next">Next</button>
+
+    <h1>Paolo Roversi</h1>
+    <div class="one">
+        <img src="img/1.jpg" alt="">
+    </div>
+    <button class="btn-one-prev">Prev2</button>
+    <button class="btn-one-next">Next2</button>
+    
+
+    <h1>Paolo Roversi</h1>
+    <div class="two">
+        <img src="img/1.jpg" alt="">
+    </div>
+    <button class="btn-two-prev">Prev2</button>
+    <button class="btn-two-next">Next2</button>
+    
+
+    <script src="slider-oop.js"></script>
+</body>
+</html>
